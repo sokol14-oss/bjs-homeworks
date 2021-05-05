@@ -7,9 +7,9 @@
 
 function averageMark(a, g, p) {
 	
-    let algebra = 5;
-    let geography = 3;
-    let physics = 2;
+    let algebra = a;
+    let geography = g;
+    let physics = p;
     let average = (algebra + geography + physics) / 3;
     
 	return average;
@@ -17,8 +17,8 @@ function averageMark(a, g, p) {
 
 function sayHello(userName) {
 	
-    let myName = "Вася"
-    let message = "Привет, мир! Меня зовут" + " " + myName;
+    let myName = userName;
+    let message = (`${"Привет, мир! Меня зовут"} , ${myName}`);
 	return message;
 }
 
