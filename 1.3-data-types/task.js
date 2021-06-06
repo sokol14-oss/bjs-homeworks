@@ -33,4 +33,3 @@ return 0;
 function getGreeting(name) {
  return `Привет, мир! Меня зовут ${name || "Аноним"}`
 }
-
