@@ -69,10 +69,7 @@ class Library {
 		books = [];
 		this.name = name;
 		this.books = books;
-	}
-}
-
-Library.addBook(book);
+		Library.addBook(book);
 book = {};
 if (state > 30) {
 Library.addBook(book) = books.push(book);
@@ -100,3 +97,8 @@ if (books[i].includes(type, value) = true) {
 	else {
 		return null;
 	}
+	}
+
+}
+
+
